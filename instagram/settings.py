@@ -31,8 +31,6 @@ DEBUG = config('DEBUG')
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-*+nz$qut8388%nfukvfz=e7-oi(xo(_h#4ydwzjui*5(65ij*d'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 
 ALLOWED_HOSTS = []
