@@ -6,8 +6,8 @@ from django.conf.urls.static import static
 urlpatterns=[
     # path('', views.login_redirect, name='login_redirect'),
     path('',views.index, name='index'),
-    # path('',views.profile,name = 'profile'),
-    path('timeline/',views.timeline,name = 'timeline'),
+    path('',views.profile,name = 'profile'),
+    path('',views.timeline,name = 'timeline'),
     path('pic/(\d+)', views.single_pic, name='single_pic'),
     path('comment/(?P<id>\d+)', views.comment, name='comment'),
     # path('user/(\d+)', views.user_details, name='userDetails'),
